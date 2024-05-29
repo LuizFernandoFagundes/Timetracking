@@ -31,7 +31,7 @@ Uma oportunidade perfeita para praticar suas habilidades em CSS Grid. Para quem 
 ### Links
 
 - URL da solução: [Adicione o URL da solução aqui](https://github.com/LuizFernandoFagundes/Timetracking)
-- URL do site ativo: [Adicione o URL do site ativo aqui](https://luizfernandofagundes.github.io/Fylo/)
+- URL do site ativo: [Adicione o URL do site ativo aqui](https://luizfernandofagundes.github.io/Timetracking/)
 
 ## Meu processo
 - Primeiro passo, foi criar uma estrutura em HTML, utilizando um container para envolver todo o conteudo.

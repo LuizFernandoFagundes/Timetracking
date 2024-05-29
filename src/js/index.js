@@ -71,7 +71,7 @@ teste.forEach((item) => {
 
 
 async function main() {
-  const response = await fetch('../src/js/data.json');
+  const response = await fetch('src/js/data.json');
   return await response.json();
   
 }
@@ -171,8 +171,5 @@ async function mon() {
   titleSelf.innerHTML = resultado[5].title;
   timeSelf.innerHTML = resultado[5].timeframes.monthly.current + 'hrs';
   informationSelf.innerHTML = 'Last Daily - ' + resultado[5].timeframes.monthly.previous + 'hrs';
-
 }
-
- 
 day();
