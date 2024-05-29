@@ -1,0 +1,213 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Very-dark-blue);
+    font-family: "Rubik", sans-serif;
+    
+}
+.container{
+    max-width: 1440px;
+    max-height: 100%;
+    
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap:20px;
+}
+.container .cardprincipal{
+    max-height: 532px;
+    max-width: 100%;
+    background-color: var(--Dark-blue);
+    border-radius: 20px;
+    
+}
+
+.container .cardprincipal .cardjeremy{
+    width: 100%;
+    border-radius:20px;
+    height: 358px;
+    background-color: var(--Blue);
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    
+}
+
+.container .cardprincipal .cardjeremy .report{
+    color: var(--Pale-Blue);
+    font-size: 1.6rem;
+    
+
+}
+
+.container .cardprincipal .cardjeremy .imgjeremy{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    margin-bottom: 30px;
+    border: 2px solid white;
+
+}
+.container .cardprincipal .cardjeremy .infocard{
+    display: flex;
+    flex-direction: column;  
+    max-width: 200px;
+}
+.container .cardprincipal .cardjeremy h1{
+    color: white;
+    font-size: 4rem;
+    font-weight: 300;
+    /* margin-bottom: 10px; */
+}
+
+.container .cardprincipal .itens{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* border: 1px solid yellow; */
+    padding-left: 30px;
+    margin: 20px 0;
+    color: var(--Pale-Blue);
+}
+
+.container .cardprincipal .itens .item{
+   font-size: 1.8rem;
+   font-weight: 300;
+   
+   cursor: pointer;
+}
+
+.container .cardprincipal .itens .item:hover{
+
+    color: white;
+}
+.white{
+    color: white;
+}
+
+.container .card-secundario{
+    
+    max-width: 100%;
+    border-radius: 20px;
+    
+    display: grid;
+    grid-template-areas: "work play study "
+                         "exercise social self-care";
+    gap: 32px;
+    font-family:"Rubik", sans-serif;
+   
+    
+    
+    
+}
+
+.container .card-secundario .card-geral{
+    max-height: 100%;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: right 15px top -10px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+    
+    
+}
+
+.container .card-secundario .card-geral .card-conteudo{
+    width: 100%;
+    height: 78%;
+    position: absolute;
+    bottom: 0px;
+    background-color: var(--Dark-blue);
+    border-radius: 20px;
+    display: flex;
+    padding: 30px 30px;
+    flex-direction: column;
+    
+}
+.container .card-secundario .card-geral card-conteudo:hover{
+    background-color: var(--Desaturated-blue);
+    cursor: pointer;
+}
+
+
+.container .card-secundario .card-geral .card-conteudo .texto
+{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+    position: relative;
+    width: 100%;
+    
+}
+.container .card-secundario .card-geral .card-conteudo .texto::after{
+    content: "";
+    background-image: url("../img/icon-ellipsis.svg");
+    background-repeat: no-repeat;
+    right: 0;
+    top: 50%;
+    position: absolute;
+    width: 30px;
+    height: 15px;
+    cursor: pointer;
+    
+}
+
+.container .card-secundario .card-geral .card-conteudo .horas{
+    color: var(--Pale-Blue);
+    font-size: 4.6rem;
+    font-weight: 300;
+        
+}
+
+.container .card-secundario .card-geral .card-conteudo .information{
+    color: var(--Pale-Blue);
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.work{
+    grid-area: "work";
+    background-image: url("../img/icon-work.svg");
+    background-color: var(--Light-red-work);
+}
+.play{
+    grid-area: "play";
+    background-image: url("../img/icon-play.svg");
+    background-color: var(--Soft-blue-play);
+}
+.study{
+    grid-area: "study";
+    background-image: url("../img/icon-study.svg");
+    background-color: var(--Light-red-study);
+}
+.exercise{
+    grid-area: "exercise";
+    background-image: url("../img/icon-exercise.svg");
+    background-color: var(--Lime-green-exercise);
+}
+.social{
+    grid-area: "social";
+    background-image: url("../img/icon-social.svg");
+    background-color: var(--Violet-social);
+}
+.self-care{
+    grid-area: "self-care";
+    background-image: url("../img/icon-self-care.svg");
+    background-color: var(--Soft-orange-self-care);
+}
+
+span{
+    display: flex;
+    flex-direction: column;
+    
+}

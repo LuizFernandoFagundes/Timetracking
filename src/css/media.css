@@ -1,0 +1,72 @@
+@media (max-width: 768px) {
+  body {
+     align-items: flex-start;
+  }
+  .container {
+     grid-template-columns: 1fr;
+  }
+  
+  .container .cardprincipal .cardjeremy{
+    height: 100px;
+    flex-direction: row;
+    padding: 30px 20px;
+    
+  }
+  .container .cardprincipal .cardjeremy .imgjeremy{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    
+  }
+  .container .cardprincipal .cardjeremy .report{
+    margin-top: 5px;
+    font-size: 1rem;
+    
+
+}
+.container .cardprincipal .cardjeremy h1{
+      
+      font-size: 2rem;
+}
+.container .cardprincipal .itens{
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding:5px 15px;
+  align-items: center;
+  height: 30px;
+  
+}
+.container .card-secundario{
+  height: 100vh;
+  grid-template-areas: "work"
+                       "play"
+                       "study"
+                       "exercise"
+                       "social"
+                       "self-care";
+                       gap: 10px;
+}
+
+.container .card-secundario .card-geral .card-conteudo .texto
+{
+  
+  font-size: 1.3rem;
+  
+}
+.container .card-secundario .card-geral .card-conteudo .horas{
+  font-size: 3rem;
+}
+
+.container .card-secundario .card-geral .card-conteudo{
+  padding: 20px;
+}
+
+.container .card-secundario .card-geral .card-conteudo .information{
+  font-size: 1.3rem;
+  
+}
+span{
+  flex-direction: row;
+  justify-content: space-between;
+}
+}
